@@ -18,4 +18,4 @@ brew install tesseract-lang
 `pip install -r requirements.txt`
 
 - Run and watch the magic :P
-`python hello-tesseract.py`
+`python hello-tesseract.py img/cupom.jpg`
