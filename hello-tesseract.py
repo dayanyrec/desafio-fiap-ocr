@@ -9,6 +9,6 @@ except:
 
 img = cv2.imread(img_path)
 
-img_strings = pytesseract.image_to_string(img)
+img_strings = pytesseract.image_to_string(img, lang='por')
 
 print(img_strings)
